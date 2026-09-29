@@ -24,27 +24,43 @@ Each member should use their own GitHub account.
 
 Do not share one login.
 
-## Step 4 — Grant Mettelo Access — Mandatory
+## Step 4 — Invite Mettelo to Your Repository — Mandatory
 
-Every team delivery repository must include Mettelo as part of the repository review process.
+Before your project can be submitted, your team must give Mettelo access to the delivery repository.
 
-If the repository is owned outside the Mettelo GitHub organisation, the Team Lead must invite the **designated Mettelo reviewer GitHub account** as a collaborator.
+### GitHub username to invite
 
-If the repository is hosted inside the Mettelo GitHub organisation, the required Mettelo reviewer/team access must remain enabled.
+```text
+OlaoluwajohnsonT
+```
 
-**Your project submission is not complete until Mettelo can access the repository.**
+### Step-by-step
 
-Before submission, confirm that Mettelo can review:
+1. Open your team project repository on GitHub.
+2. Click **Settings**.
+3. Select **Collaborators** or **Collaborators and teams**.
+4. Click **Add people**.
+5. Search for **OlaoluwajohnsonT**.
+6. Select the matching GitHub user.
+7. Send the invitation.
+8. Confirm the invitation appears as sent/pending or accepted.
+9. Keep the access active until Mettelo completes review and verification.
 
-- repository files and folders;
+### Important
+
+Your submission is **not complete until Mettelo can access the repository**.
+
+Mettelo must be able to inspect:
+
+- project files;
 - commit history;
 - branches;
 - issues;
 - pull requests;
-- contribution evidence;
+- contribution records;
 - final deliverables.
 
-Mettelo access must remain active until the review and verification process is complete.
+If the repository is already inside the Mettelo GitHub organisation, retain the existing Mettelo access.
 
 ## Step 5 — Build the Mandatory Structure
 
@@ -87,7 +103,7 @@ It must contain:
 
 Confirm:
 - [ ] repository name follows the standard;
-- [ ] Mettelo reviewer access has been granted and verified;
+- [ ] GitHub user `OlaoluwajohnsonT` has been invited and access verified;
 - [ ] README is complete;
 - [ ] raw-data acquisition instructions work;
 - [ ] code is reproducible;
