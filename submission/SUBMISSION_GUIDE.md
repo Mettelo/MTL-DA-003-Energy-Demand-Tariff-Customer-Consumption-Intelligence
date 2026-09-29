@@ -24,31 +24,28 @@ Each member should use their own GitHub account.
 
 Do not share one login.
 
-## Step 4 — Invite Mettelo to Your Repository — Mandatory
+## Step 4 — Give Mettelo Organisation Access — Mandatory
 
-Before your project can be submitted, your team must give Mettelo access to the delivery repository.
+Your team delivery repository must be accessible to the **Mettelo GitHub organisation** before submission.
 
-### GitHub username to invite
+### Preferred setup
 
-```text
-OlaoluwajohnsonT
-```
+Create the repository inside the **Mettelo GitHub organisation** where possible.
 
-### Step-by-step
+This is the preferred Mettelo delivery model.
 
-1. Open your team project repository on GitHub.
-2. Click **Settings**.
-3. Select **Collaborators** or **Collaborators and teams**.
-4. Click **Add people**.
-5. Search for **OlaoluwajohnsonT**.
-6. Select the matching GitHub user.
-7. Send the invitation.
-8. Confirm the invitation appears as sent/pending or accepted.
-9. Keep the access active until Mettelo completes review and verification.
+### If your repository already exists outside Mettelo
 
-### Important
+If the repository is under a personal GitHub account or another organisation, do **not** assume you can invite the Mettelo organisation directly.
 
-Your submission is **not complete until Mettelo can access the repository**.
+GitHub normally allows personal repositories to invite individual collaborators, while organisation repositories can grant access to organisation teams.
+
+Before submission, follow the access route specified by Mettelo for your cohort. This may mean:
+
+1. transferring the repository into the Mettelo GitHub organisation; or
+2. adding the Mettelo reviewer account/team specified by Mettelo.
+
+### Required before submission
 
 Mettelo must be able to inspect:
 
@@ -60,7 +57,9 @@ Mettelo must be able to inspect:
 - contribution records;
 - final deliverables.
 
-If the repository is already inside the Mettelo GitHub organisation, retain the existing Mettelo access.
+**Your submission is not complete until Mettelo organisation access has been verified.**
+
+Keep this access active until the review and verification process is complete.
 
 ## Step 5 — Build the Mandatory Structure
 
@@ -103,7 +102,7 @@ It must contain:
 
 Confirm:
 - [ ] repository name follows the standard;
-- [ ] GitHub user `OlaoluwajohnsonT` has been invited and access verified;
+- [ ] Mettelo organisation access has been granted and verified;
 - [ ] README is complete;
 - [ ] raw-data acquisition instructions work;
 - [ ] code is reproducible;
