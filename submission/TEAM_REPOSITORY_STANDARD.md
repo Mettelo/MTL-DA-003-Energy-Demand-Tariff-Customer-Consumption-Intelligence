@@ -20,30 +20,50 @@ The repository may remain private during delivery.
 
 If private, add the designated Mettelo reviewer GitHub account before final submission.
 
-## Mandatory Mettelo Access
+## Mandatory Mettelo Repository Access
 
-Every team delivery repository **must grant Mettelo access** for review, verification and project-quality assurance.
+Every team delivery repository must grant Mettelo access before the submission is considered complete.
 
-### If the repository is owned by a team member or another organisation
+### Exact GitHub account to invite
 
-The Team Lead must invite the **designated Mettelo reviewer GitHub account** as a collaborator.
+Invite this GitHub username:
 
-### If the repository is created inside the Mettelo GitHub organisation
+```text
+OlaoluwajohnsonT
+```
 
-The required Mettelo reviewer/team access must be retained.
+### How to add Mettelo
+
+If your repository is owned by a team member or another organisation:
+
+1. Open your team repository on GitHub.
+2. Select **Settings**.
+3. Open **Collaborators** or **Collaborators and teams**.
+4. Select **Add people**.
+5. Search for the username **OlaoluwajohnsonT**.
+6. Select the matching GitHub account.
+7. Send the invitation.
+8. Confirm the invitation has been sent successfully.
+
+If the repository is already hosted inside the Mettelo GitHub organisation, do not remove existing Mettelo access.
+
+### Required access before submission
+
+Mettelo must be able to review:
+
+- repository files and folders;
+- commit history;
+- branches;
+- issues;
+- pull requests;
+- contribution evidence;
+- final deliverables.
 
 ### Submission rule
 
-A repository will **not be treated as a complete Mettelo submission until Mettelo access has been granted and verified**.
+A repository is **not a complete Mettelo submission until access for `OlaoluwajohnsonT` has been granted and verified**.
 
-The Team Lead is responsible for ensuring that:
-
-- the invitation has been sent;
-- the designated Mettelo reviewer can open the repository;
-- the reviewer can inspect code, documentation, issues, pull requests and contribution history;
-- access remains available throughout review and verification.
-
-Do not remove Mettelo access until the project review and verification process is complete.
+The Team Lead is responsible for confirming access and must keep it active until the review and verification process is complete.
 
 ## Mandatory Structure
 
